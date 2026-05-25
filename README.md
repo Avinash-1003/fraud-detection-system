@@ -4,7 +4,7 @@ A production-style, end-to-end Big Data system for real-time financial fraud det
 
 This project implements the architecture described in the IEEE paper: *"Real-Time Fraud Detection using Apache Kafka and Spark Streaming: A Distributed Stream Processing Approach."*
 
-![Dashboard Mockup](docs/dashboard-preview.png) *(Note: Replace with actual screenshot when running)*
+![Dashboard Mockup](docs/dashboard-preview.png) 
 
 ---
 
