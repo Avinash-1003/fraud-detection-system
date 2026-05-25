@@ -1,0 +1,52 @@
+# Dependencies
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# ML Models
+ml/models/*.joblib
+ml/models/*.pkl
+ml/data/*.csv
+!ml/data/.gitkeep
+
+# Environment
+.env
+.env.local
+.env.production
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Docker
+docker-compose.override.yml
+
+# Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Spark
+spark-streaming/checkpoints/
+spark-streaming/spark-warehouse/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Monitoring data
+monitoring/grafana/data/
+monitoring/prometheus/data/
